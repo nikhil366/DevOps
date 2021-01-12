@@ -1,0 +1,96 @@
+Link - https://www.youtube.com/watch?v=JHoy3lDZOfY
+DevOps
+•	Dev(development) 
+•	Ops(operations)	
+
+Tools
+•	Git – version control system
+•	Docker – container platform
+•	Docker swarm
+•	 Configuration Management (puppet ansible)
+•	Software testing using Selenium 
+•	Continuous integration (using Jenkins)
+•	Kubernetes
+•	 Nagios
+
+DevOps
+In any company there are 2 department for app and web development these department are developer and operations.
+Developer develop the code and operations team is check the code is running properly if due to some errors the code is not running then operation team forward back to develop team that your code is not working properly but develop team is saying code is working on my system properly there is an system or package or lib issue in your system, So via this debate things are not working properly via blaming to other team.  So, this problem is solved via devOps.
+
+
+
+
+DevOps Work Process: -  
+  
+
+DevOps lifecycle divide SDLC into 5 segments: -
+ 
+
+These segments are:
+1.	Continuous Development 
+2.	Continuous Integration
+3.	Continuous Deployment
+4.	Continuous Testing
+5.	Continuous Monitoring
+
+
+Automated CI/CD Pipeline
+ 
+
+Continuous Development 
+Continuous Development is use to commit the code into version control like git or SVN for maintain the different version of the code, and tools like ant, maven, gradle. Because via it we packed our code and can send for testing or deployment.
+Tool use by it – GitHub (it is most use for version control and for push the code)
+Continuous Integration
+Continuous Integration is used because it makes relation or connect all of segment to each other. For more update see CI/CD pipeline.
+Tool use by it - Jenkins (it is open source automation server written in java. It is used for deployment) 
+
+
+
+Continuous Deployment
+Deploy a code on particular server on testing server or production server.
+Tools used – [Docker] virtualization and containerization (it is use to convert code in that form via it can be deploy on any platform without any dependency error), 
+configuration management [puppet, ansible] - to install all requirement for our system or in a new system we can do it via configuration management. It will automatically add dependency like Docker, python, apache server etc.
+Continuous Testing
+Continuous build and test our code on different version.
+Selenium tool is used for create automation suites for testing our application.
+Continuous Monitoring
+This is use for monitoring of all other segments that is process running properly or not. For any bugs that occurs or any errors that occurs and not running properly and for user feedback this segment is use.
+Nagios – Nagios give us a dashboard via it we can monitor and feedback. For user activity. 
+
+
+
+
+Version Control System – (Git): -
+
+Basic Command that we are going to use in Git for projects.
+1.	Creating Repository
+2.	Making Changes
+3.	Parallel development
+4.	Syncing repository
+
+Git Command: -
+•	Create a directory or a folder where our complete setup or files related to project.
+•	Process for make a dir in Git and add files to in it.
+Cmd - mkdir folder_name
+Git init  - this command is use for initialize a git folder in project directory.
+Git status – to know the status of files
+git commit -m “any msg ” -  prepare file to be ready to push on git with message.
+git branch -M main
+git remote add origin “LINK”
+git push -u origin main
+
+•	
+	
+
+
+
+  
+
+
+
+
+
+
+
+
+
